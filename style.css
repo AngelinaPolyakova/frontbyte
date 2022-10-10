@@ -1,59 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.b-container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.b-background {
+    padding: 40px 60px -10px 40px;
+    background: url('./images/header-background.jpg'), rgba(0,0,0,0.4);
+    background-blend-mode: color;
 }
 
 .b-header {
-    display: grid;
-    grid-template-columns: 160px 1fr 120px;
-    align-items:center ;
-    padding: 40px;
-    padding-right: 60px;
-    color: #f4f4f7;
+  display: grid;
+  padding: 40px 60px 40px 40px;
+  grid-template-columns: 160px 1fr 120px;
+  align-items: center;
+  padding-right: 60px;
+  font-size: 1.07rem;
+  line-height: 133%;
+  color: #f4f4f7;
+  z-index: 2;
 }
 
 .b-menu__list {
-    list-style: none;
-    display: inline-flex;
+  list-style: none;
+  display: inline-flex;
 }
 
 .b-menu__item:not(:last-of-type) {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .b-menu__link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .b-menu__link:link,
 .b-menu__link:visited,
 .b-menu__link:hover,
 .b-menu__link:active {
-    color: inherit;
+  color: inherit;
 }
 
 .b-language {
-    list-style: none;
-    display: flex;
-    justify-content: space-between ;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .b-language__input {
-    display: none;
-
+  display: none;
 }
 
 .b-language__label {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .b-language__input:checked + .b-language__label {
-    border: 1px solid #fff;
-    padding: 10px;
-    border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.b-description {
+  text-align: left;
+  color: #f4f4f7;
+  z-index: 2;
+}
+
+.b-description__title {
+  font-size: 3.75rem;
+  line-height: 108%;
+  max-width: 780px;
+  font-weight: 900;
+  letter-spacing: -0.75px;
+  margin: 52px auto 30px 200px;
+}
+
+.b-description__paragraph {
+  font-size: 1.25rem;
+  line-height: 150%;
+  max-width: 670px;
+  margin: auto auto 78px 200px;
+}
+
+.b-button {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 150%;
+  max-width: 580px;
+box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: none;
+  border-bottom: none;
+  color: #f4f4f7;
+  padding: 25px 260px 25px 200px;
+  color:#f4f4f7;
+  text-decoration: none;
+  background: url(./images/arrow.svg) no-repeat 510px 50%;
+}
+
+.b-button__text {
+    
 }

@@ -15,68 +15,84 @@
     <title>Frontbyte</title>
   </head>
   <body>
-    <header class="b-header">
-      <a href="#" class="b-picture">
-        <picture class="b-header__logo">
-          <img
-            src="./images/frontbyte-logo.svg"
-            alt="Frontbyte"
-            class="b-header__image"
-          />
-        </picture>
-      </a>
-      <nav class="b-menu">
-        <ul class="b-menu__list">
-          <li class="b-menu__item">
-            <a href="#" title="About" class="b-menu__link">About</a>
+    <div class="b-container">
+        <div class="b-background">
+      <header class="b-header">
+        <a href="#" class="b-picture">
+          <picture class="b-header__logo">
+            <img
+              src="./images/frontbyte-logo.svg"
+              alt="Frontbyte"
+              class="b-header__image"
+            />
+          </picture>
+        </a>
+        <nav class="b-menu">
+          <ul class="b-menu__list">
+            <li class="b-menu__item">
+              <a href="#" title="About" class="b-menu__link">About</a>
+            </li>
+            <li class="b-menu__item">
+              <a href="#" title="Projects" class="b-menu__link">Projects</a>
+            </li>
+            <li class="b-menu__item">
+              <a href="#" title="Services" class="b-menu__link">Services</a>
+            </li>
+            <li class="b-menu__item">
+              <a href="#" title="Our team" class="b-menu__link">Our team</a>
+            </li>
+            <li class="b-menu__item">
+              <a href="#" title="Events" class="b-menu__link">Events</a>
+            </li>
+            <li class="b-menu__item">
+              <a href="#" title="Contacts" class="b-menu__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="b-language">
+          <li class="b-language__item">
+            <input
+              type="radio"
+              id="lang-no"
+              name="language"
+              class="b-language__input"
+            />
+            <label for="lang-no" class="b-language__label">No</label>
           </li>
-          <li class="b-menu__item">
-            <a href="#" title="Projects" class="b-menu__link">Projects</a>
+          <li class="b-language__item">
+            <input
+              type="radio"
+              id="lang-en"
+              name="language"
+              class="b-language__input"
+              checked
+            />
+            <label for="lang-en" class="b-language__label">En</label>
           </li>
-          <li class="b-menu__item">
-            <a href="#" title="Services" class="b-menu__link">Services</a>
-          </li>
-          <li class="b-menu__item">
-            <a href="#" title="Our team" class="b-menu__link">Our team</a>
-          </li>
-          <li class="b-menu__item">
-            <a href="#" title="Events" class="b-menu__link">Events</a>
-          </li>
-          <li class="b-menu__item">
-            <a href="#" title="Contacts" class="b-menu__link">Contacts</a>
+          <li class="b-language__item">
+            <input
+              type="radio"
+              id="lang-ru"
+              name="language"
+              class="b-language__input"
+            />
+            <label for="lang-ru" class="b-language__label">Ru</label>
           </li>
         </ul>
-      </nav>
-      <ul class="b-language">
-        <li class="b-language__item">
-          <input
-            type="radio"
-            id="lang-no"
-            name="language"
-            class="b-language__input"
-          />
-          <label for="lang-no" class="b-language__label">No</label>
-        </li>
-        <li class="b-language__item">
-          <input
-            type="radio"
-            id="lang-en"
-            name="language"
-            class="b-language__input"
-            checked
-          />
-          <label for="lang-en" class="b-language__label">En</label>
-        </li>
-        <li class="b-language__item">
-          <input
-            type="radio"
-            id="lang-ru"
-            name="language"
-            class="b-language__input"
-          />
-          <label for="lang-ru" class="b-language__label">Ru</label>
-        </li>
-      </ul>
-    </header>
+      </header>
+      <section class="b-description">
+        <h1 class="b-description__title">
+          We provide digital services and develop our own products in sports and
+          iHealth industry
+        </h1>
+        <p class="b-description__paragraph">
+          We put technology and sport together to create the world's most
+          efficient and popular sports apps.
+        </p>
+
+        <a href="#" class="b-button">Drop us a line </a>
+      </section>
+    </div>
+    </div>
   </body>
 </html>
