@@ -6,6 +6,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  color: #2d2d42;
+  background-color: #f4f4f7;
 }
 
 .b-container {
@@ -28,7 +30,6 @@ body {
   font-size: 1.07rem;
   line-height: 133%;
   color: #f4f4f7;
-  z-index: 2;
 }
 
 .b-menu__list {
@@ -74,15 +75,18 @@ body {
 .b-description {
   text-align: left;
   color: #f4f4f7;
-  z-index: 2;
+  margin-bottom: 100px;
 }
 
-.b-description__title {
-  font-size: 3.75rem;
-  line-height: 108%;
-  max-width: 780px;
-  font-weight: 900;
-  letter-spacing: -0.75px;
+.b-title {
+    font-size: 3.75rem;
+    line-height: 108%;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+    max-width: 780px;
+}
+
+.b-title_description {
   margin: 52px auto 30px 200px;
 }
 
@@ -109,6 +113,104 @@ box-sizing: border-box;
   background: url(./images/arrow.svg) no-repeat 510px 50%;
 }
 
-.b-button__text {
-    
+.b-advantage {
+    background-color: #fff;
+    padding: 90px 0 137px 0;
+
+}
+
+.b-expertise {
+    margin: 0 0 0 200px;
+}
+
+.b-title_expertise {
+    margin: 90px 0 30px;
+}
+
+.b-expertise__paragraph {
+    font-size: 1.875rem;
+    line-height: 250%;
+    margin-bottom: 85px;
+}
+
+.b-flex {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 60px;
+    align-items: flex-start;
+}
+
+.b-flex_service {
+    justify-content: flex-start;
+    column-gap: 60px;
+    align-items: flex-start;
+}
+
+.b-expertise__item {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.b-icon {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 130px;
+    align-self: left;
+}
+
+.b-icon_blue {
+    background-color: #63c9e0;
+}
+
+.b-icon_orange {
+    background-color: #f47e3d;
+}
+
+.b-icon_purple {
+    background-color: #d04b9b;
+}
+
+.b-expertise__text {
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.b-title_service {
+    color: #c0c6c8;
+    margin: 70px auto 75px 200px;
+}
+
+.b-flex {
+    display: flex;
+}
+
+.b-flex_service {
+    flex-direction: column;
+    margin: 0 auto 0 200px;
+    flex-wrap: wrap;
+    max-height: 250px;
+    row-gap: 20px;
+}
+
+.b-service__item {
+    font-size: 1.25rem;
+    line-height: 150%;
+    position: relative;
+    width: 50%;
+    max-width: 380px;
+    padding: 0 60px 0 0;
+}
+
+.b-service__item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    width: 30px;
+    height: 1px;
+    background-color: #64cae1;
 }
