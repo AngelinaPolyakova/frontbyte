@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontbyte</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="b-header">
+      <a href="#" class="b-picture">
+        <picture class="b-header__logo">
+          <img
+            src="./images/frontbyte-logo.svg"
+            alt="Frontbyte"
+            class="b-header__image"
+          />
+        </picture>
+      </a>
+      <nav class="b-menu">
+        <ul class="b-menu__list">
+          <li class="b-menu__item">
+            <a href="#" title="About" class="b-menu__link">About</a>
+          </li>
+          <li class="b-menu__item">
+            <a href="#" title="Projects" class="b-menu__link">Projects</a>
+          </li>
+          <li class="b-menu__item">
+            <a href="#" title="Services" class="b-menu__link">Services</a>
+          </li>
+          <li class="b-menu__item">
+            <a href="#" title="Our team" class="b-menu__link">Our team</a>
+          </li>
+          <li class="b-menu__item">
+            <a href="#" title="Events" class="b-menu__link">Events</a>
+          </li>
+          <li class="b-menu__item">
+            <a href="#" title="Contacts" class="b-menu__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="b-language">
+        <li class="b-language__item">
+          <input type="radio" id="lang-no" name="language" class="b-language__input" />
+          <label for="lang-no" class="b-language__label">No</label>
+        </li>
+        <li class="b-language__item">
+          <input type="radio" id="lang-en" name="language" class="b-language__input" checked/>
+          <label for="lang-en" class="b-language__label">En</label>
+        </li>
+        <li class="b-language__item">
+          <input type="radio" id="lang-ru" name="language" class="b-language__input" />
+          <label for="lang-ru" class="b-language__label">Ru</label>
+        </li>
+      </ul>
+    </header>
+  </body>
 </html>

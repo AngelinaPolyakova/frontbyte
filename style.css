@@ -2,3 +2,57 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-weight: 300;
+}
+
+.b-header {
+    display: grid;
+    grid-template-columns: 160px 1fr 120px;
+    align-items:center ;
+    padding: 40px;
+    padding-right: 60px;
+    color: #f4f4f7;
+}
+
+.b-menu__list {
+    list-style: none;
+    display: inline-flex;
+}
+
+.b-menu__item:not(:last-of-type) {
+    margin-right: 50px;
+}
+
+.b-menu__link {
+    text-decoration: none;
+}
+
+.b-menu__link:link,
+.b-menu__link:visited,
+.b-menu__link:hover,
+.b-menu__link:active {
+    color: inherit;
+}
+
+.b-language {
+    list-style: none;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.b-language__input {
+    display: none;
+
+}
+
+.b-language__label {
+    cursor: pointer;
+}
+
+.b-language__input:checked + .b-language__label {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
