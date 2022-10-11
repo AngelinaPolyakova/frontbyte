@@ -470,3 +470,13 @@ text-decoration: none;
   column-gap: 180px;
 }
 
+.b-footer {
+  display: flex;
+  align-items: center;
+  column-gap: 118px;
+  background-color: #000;
+}
+
+.b-button_blue {
+  background-color: #64cae1;
+}
