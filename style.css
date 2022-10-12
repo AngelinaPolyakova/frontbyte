@@ -25,7 +25,7 @@ body {
 
 .b-background {
     padding: 40px 60px -10px 40px;
-    background: url('./images/header-background.jpg'), rgba(0,0,0,0.4);
+    background: url('./images/header/header-background.jpg'), rgba(0,0,0,0.4);
     background-blend-mode: color;
 }
 
@@ -125,7 +125,7 @@ body {
   padding: 25px 260px 25px 200px;
   color:var(--light);
   text-decoration: none;
-  background: url(./images/arrow.svg) no-repeat 510px 50%;
+  background: url(./images/button/arrow.svg) no-repeat 510px 50%;
 }
 
 .b-advantage {
