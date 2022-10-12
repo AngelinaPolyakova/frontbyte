@@ -3,11 +3,18 @@
   padding: 0;
 }
 
+:root {
+  --dark: #2d2d42;
+  --light: #f4f4f7;
+  --blue: #64cae1;
+  --grey: #c0c6c8;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #2d2d42;
-  background-color: #f4f4f7;
+  color: var(--dark);
+  background-color: var(--light);
   overflow-x: hidden;
 }
 
@@ -30,7 +37,7 @@ body {
   padding-right: 60px;
   font-size: 1.07rem;
   line-height: 133%;
-  color: #f4f4f7;
+  color: var(--light);
 }
 
 .b-menu__list {
@@ -75,7 +82,7 @@ body {
 
 .b-description {
   text-align: left;
-  color: #f4f4f7;
+  color: var(--light);
   margin-bottom: 100px;
 }
 
@@ -112,9 +119,8 @@ box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-left: none;
   border-bottom: none;
-  color: #f4f4f7;
   padding: 25px 260px 25px 200px;
-  color:#f4f4f7;
+  color:var(--light);
   text-decoration: none;
   background: url(./images/arrow.svg) no-repeat 510px 50%;
 }
@@ -186,7 +192,7 @@ box-sizing: border-box;
 }
 
 .b-title_service {
-    color: #c0c6c8;
+    color: var(--grey);
     margin: 70px auto 75px 200px;
 }
 
@@ -218,7 +224,7 @@ box-sizing: border-box;
     left: -60px;
     width: 30px;
     height: 1px;
-    background-color: #64cae1;
+    background-color: var(--blue);
 }
 
 .b-title_work {
@@ -242,8 +248,8 @@ margin-top: 40px;
 }
 
 .b-box_blue {
-  background-color: #64cae1;
-  color: #f4f4f7;
+  background-color: var(--blue);
+  color: var(--light);
   padding: 40px;
   max-width: 380px;
   box-sizing: border-box;
@@ -253,7 +259,7 @@ margin-top: 40px;
 }
 
 .b-box_white {
-  background-color: #f4f4f7;
+  background-color: var(--light);
   padding: 40px;
   padding-bottom:110px;
   max-width: 380px;
@@ -336,7 +342,7 @@ margin: 100px auto 25px 330px;
   height: 380px;
   position: absolute;
   top: 390px;
-  background-color: #f4f4f7;
+  background-color: var(--light);
   padding-top: 40px;
   padding-right: 40px;
   overflow: hidden;
@@ -350,7 +356,7 @@ margin: 100px auto 25px 330px;
 .b-slider__label {
   width: 65px;
   height: 1px;
-  background-color: #c0c6c8;
+  background-color: var(--grey);
   cursor: pointer;
   margin-right: 9px;
 }
@@ -417,7 +423,7 @@ margin: 100px auto 25px 330px;
   background: url('./images/contacts/map.svg') no-repeat 90% 70% ;
   background-color: #000;
   background-blend-mode: screen;
-  color: #f4f4f7;
+  color: var(--light);
   padding-top: 100px;
   padding-bottom: 70px;
 }
@@ -458,7 +464,7 @@ margin: 100px auto 25px 330px;
 
 .b-contact__email {
   display: block;
-  color: #64cae1;
+  color: var(--blue);
 }
 
 .b-contact__phone {
@@ -478,5 +484,5 @@ text-decoration: none;
 }
 
 .b-button_blue {
-  background-color: #64cae1;
+  background-color: var(--blue);
 }
