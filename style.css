@@ -76,8 +76,18 @@ body {
 
 .b-language__input:checked + .b-language__label {
   border: 1px solid #fff;
-  padding: 10px;
-  border-radius: 50%;
+  
+  animation: language 0.5s forwards;
+}
+
+@keyframes language {
+  0% {
+    padding: 0;
+  }
+  100% {
+    border-radius: 50%;
+    padding: 10px;
+  }
 }
 
 .b-description {
