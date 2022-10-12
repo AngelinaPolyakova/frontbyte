@@ -231,7 +231,7 @@ body {
 .b-service__item::before {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 15px;
     left: -60px;
     width: 30px;
     height: 1px;
