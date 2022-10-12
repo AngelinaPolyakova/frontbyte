@@ -27,6 +27,7 @@ body {
     padding: 40px 60px -10px 40px;
     background: url('./images/header/header-background.jpg'), rgba(0,0,0,0.4);
     background-blend-mode: color;
+    background-size: cover;
 }
 
 .b-header {
