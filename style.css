@@ -410,7 +410,7 @@ margin-top: 40px;
   color: #93a4a9;
 }
 
-.b-contacts {
+.b-contact {
   background: url('./images/contacts/map.svg') no-repeat 90% 70% ;
   background-color: #000;
   background-blend-mode: screen;
@@ -419,7 +419,7 @@ margin-top: 40px;
   padding-bottom: 70px;
 }
 
-.b-flex_contacts {
+.b-flex_contact {
   margin: auto auto 75px 200px;
   column-gap: 250px;
   align-items: center;
