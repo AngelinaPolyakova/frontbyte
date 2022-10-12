@@ -170,8 +170,7 @@ body {
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    line-height: 130px;
-    align-self: left;
+    position: relative;
 }
 
 .b-icon_blue {
@@ -184,6 +183,17 @@ body {
 
 .b-icon_purple {
     background-color: #d04b9b;
+}
+
+.b-expertise__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.b-expertise__image_orange {
+  transform: translate(-35%, -50%);
 }
 
 .b-expertise__text {
