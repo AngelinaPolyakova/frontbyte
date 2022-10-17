@@ -23,13 +23,6 @@ body {
   margin: 0 auto;
 }
 
-.b-background {
-  padding: 40px 60px -10px 40px;
-  background: url("./images/header/header-background.jpg"), rgba(0, 0, 0, 0.4);
-  background-blend-mode: color;
-  background-size: cover;
-}
-
 .b-header {
   display: grid;
   padding: 40px 60px 40px 40px;
@@ -39,6 +32,8 @@ body {
   font-size: 0.9375rem;
   line-height: 125%;
   color: var(--light);
+  position: relative;
+  z-index: 2;
 }
 
 .b-menu__list {
@@ -95,7 +90,25 @@ body {
 .b-description {
   text-align: left;
   color: var(--light);
-  margin-bottom: 100px;
+  position: relative;
+  margin: auto auto 100px;
+}
+
+.b-description__background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top:-180px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.b-description img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 
 .b-title {
@@ -108,6 +121,8 @@ body {
 
 .b-title_description {
   margin: 52px auto 30px 200px;
+  position: relative;
+  z-index: 2;
 }
 
 .b-paragraph_small {
@@ -122,7 +137,9 @@ body {
 
 .b-paragraph_description {
   max-width: 670px;
-  margin: auto auto 78px 200px;
+  margin: auto auto 178px 200px;
+  position: relative;
+  z-index: 2;
 }
 
 .b-button {
@@ -138,6 +155,8 @@ body {
   color: var(--light);
   text-decoration: none;
   background: url(./images/button/arrow.svg) no-repeat 510px 50%;
+  position: relative;
+  z-index: 2;
 }
 
 .b-advantage {
