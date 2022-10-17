@@ -89,24 +89,16 @@ body {
 
 .b-language__label {
   cursor: pointer;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .b-language__input:checked + .b-language__label {
   border: 1px solid #fff;
-
-  animation: language 0.5s forwards;
+  border-radius: 50%;
+  box-sizing: border-box;
 }
 
-@keyframes language {
-  0% {
-    padding: 13px;
-    border-radius: 50%;
-  }
-  100% {
-    border-radius: 50%;
-    padding: 10px;
-  }
-}
 
 .b-description {
   text-align: left;
