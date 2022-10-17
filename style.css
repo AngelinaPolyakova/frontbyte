@@ -10,6 +10,27 @@
   --grey: #c0c6c8;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Light.woff),
+  url(./fonts/Roboto-Light.woff2);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Bold.woff),
+  url(./fonts/Roboto-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Black.woff),
+  url(./fonts/Roboto-Black.woff2);
+  font-weight: 900;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
