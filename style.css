@@ -482,6 +482,7 @@ body {
   align-items: center;
   column-gap: 118px;
   background-color: #000;
+  color: var(--light);
 }
 
 .b-button_blue {
