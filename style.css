@@ -173,12 +173,9 @@ body {
 
 .b-advantage {
   background-color: #fff;
-  padding: 90px 0 137px 0;
+  padding: 90px 100px 137px 200px;
 }
 
-.b-expertise {
-  margin: 0 0 0 200px;
-}
 
 .b-title_expertise {
   margin: 90px 0 30px;
@@ -246,7 +243,7 @@ body {
 
 .b-title_service {
   color: var(--grey);
-  margin: 70px auto 75px 200px;
+  margin: 70px auto 75px auto;
 }
 
 .b-flex {
@@ -255,7 +252,6 @@ body {
 
 .b-flex_service {
   flex-direction: column;
-  margin: 0 auto 0 200px;
   flex-wrap: wrap;
   max-height: 250px;
   row-gap: 20px;
