@@ -156,19 +156,25 @@ body {
 }
 
 .b-button {
-  display: inline-block;
-  font-size: 20px;
-  line-height: 150%;
+  width: 50%;
+  height: 80px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-left: none;
   border-bottom: none;
-  padding: 25px 260px 25px 200px;
   color: var(--light);
   text-decoration: none;
   background: url(./images/button/arrow.svg) no-repeat 500px 50%;
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 2;
+}
+
+.b-button__text {
+  font-size: 20px;
+  line-height: 150%;
+  padding-left: 200px;
 }
 
 .b-advantage {
