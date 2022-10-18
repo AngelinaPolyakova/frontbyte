@@ -433,6 +433,8 @@ body {
   padding-top: 100px;
   padding-bottom: 70px;
   padding-left: 200px;
+  position: relative;
+  z-index: -1;
 }
 
 .b-contact__row {
@@ -449,12 +451,16 @@ body {
 
 .b-paragraph_contact {
   margin: auto 595px auto auto ;
+  position: relative;
+  z-index: 2;
 }
 
 .b-contact__office {
   display: flex;
   margin: 90px auto auto auto;
   column-gap: 180px;
+  position: relative;
+  z-index: 2;
 }
 
 .b-title_contact {
@@ -476,6 +482,16 @@ body {
 .b-contact__phone {
   color: inherit;
   text-decoration: none;
+}
+
+.b-contact__background {
+  position: absolute;
+  width: 902px;
+  height: 440px;
+  top: 185px;
+  left: 250px;
+  z-index: 1;
+
 }
 
 .b-footer {
