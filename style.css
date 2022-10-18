@@ -217,6 +217,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 240px);
   column-gap: 60px;
+  row-gap: 50px;
 }
 
 .b-service__list {
@@ -433,6 +434,7 @@ body {
 
 .b-news__list {
   column-gap: 50px;
+  row-gap: 50px;
   margin-right: 170px;
   display: grid;
   grid-template-columns: repeat(3, 280px);
