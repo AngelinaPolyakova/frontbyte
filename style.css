@@ -57,6 +57,10 @@ body {
   height: 40px;
 }
 
+.b-header__image {
+  object-fit: cover;
+}
+
 .b-menu__list {
   list-style: none;
   display: inline-flex;
@@ -334,6 +338,15 @@ body {
   margin-bottom: 39px;
 }
 
+.b-gallery__image--big {
+  width: 1180px;
+  height: 600px;
+}
+
+.b-gallery__photo {
+  object-fit: cover;
+}
+
 .b-gallery__text {
   font-size: 30px;
   line-height: 133%;
@@ -385,6 +398,12 @@ body {
 
 .b-inside__image {
   margin-left: 200px;
+  width: 980px;
+  height: 600px;
+}
+
+.b-inside__image {
+  object-fit: cover;
 }
 
 .b-slider {
@@ -569,6 +588,10 @@ body {
   top: 185px;
   left: 250px;
   z-index: 1;
+}
+
+.b-contact__image {
+  object-fit: cover;
 }
 
 .b-footer {
