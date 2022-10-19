@@ -413,6 +413,11 @@ body {
   margin: auto 60px 45px 0;
 }
 
+.b-slider__icon {
+  width: 50px;
+  height: 26px;
+}
+
 .b-navigation {
 display: flex;
 flex-direction: column;
@@ -514,6 +519,11 @@ flex-direction: column;
   column-gap: 25px;
   position: relative;
   list-style: none;
+}
+
+.b-social__icon {
+  width: 30px;
+  height: 30px;
 }
 
 .b-social__item:hover {
