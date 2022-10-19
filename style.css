@@ -47,7 +47,7 @@ body {
 .b-header {
   display: grid;
   padding: 40px 60px 40px 40px;
-  grid-template-columns: 160px 1fr 127px;
+  grid-template-columns: 160px 1fr 160px;
   align-items: center;
   font-size: 15px;
   color: var(--light);
@@ -86,7 +86,8 @@ body {
 .b-language {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  margin-left: 25px;
+  column-gap: 15px;
 }
 
 .b-language__input {
@@ -96,6 +97,7 @@ body {
 .b-language__label {
   cursor: pointer;
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .b-language__label:hover {
@@ -109,7 +111,6 @@ body {
 .b-language__input:checked + .b-language__label {
   border: 1px solid #fff;
   border-radius: 50%;
-  padding: 12px;
 }
 
 
@@ -435,10 +436,6 @@ flex-direction: column;
 
 .b-navigation__arrow--left {
   transform: rotate(180deg);
-}
-
-.b-navigation__right {
-
 }
 
 .b-navigation__line {
