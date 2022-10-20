@@ -124,18 +124,18 @@ body {
 .b-description__background {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  max-height: 680px;
   top: -180px;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  filter: brightness(0.6);
 }
 
 .b-description img {
   width: 100%;
-  height: 100vh;
   position: absolute;
   left: 0;
   z-index: -1;
+  object-fit: cover;
 }
 
 .b-title {
@@ -183,6 +183,10 @@ body {
   align-items: center;
   position: relative;
   z-index: 2;
+}
+
+.b-button--transparent {
+  margin-top: auto;
 }
 
 .b-button__text {
