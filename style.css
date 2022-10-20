@@ -578,6 +578,7 @@ body {
   display: block;
   color: var(--blue);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .b-contact__phone {
