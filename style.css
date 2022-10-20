@@ -612,3 +612,7 @@ a.b-card:hover {
 .b-button--blue {
   background-color: var(--blue);
 }
+
+.b-footer__copyright {
+  opacity: 0.5;
+}
