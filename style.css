@@ -367,7 +367,7 @@ body {
   text-decoration: none;
 }
 
-.b-card:hover {
+a.b-card:hover {
   opacity: 0.7;
 }
 
