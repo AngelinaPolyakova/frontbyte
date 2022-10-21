@@ -171,7 +171,7 @@ body {
 
 .b-button {
   width: 50%;
-  height: 78px;
+  height: 80px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-left: none;
@@ -183,6 +183,10 @@ body {
   align-items: center;
   position: relative;
   z-index: 2;
+}
+
+.b-button--transparent {
+  top: -8px;
 }
 
 .b-button__text {
